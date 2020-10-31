@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+.container{
+	width: calc(100% - 300px);
+	margin: auto;
+}
+.col{
+
+width: 25%;
+
+padding: 15px;
+
+flex: 0 0 auto;
+}
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+
+/*Header section css start*/
+header{
+
+padding: 20px 0;
+
+box-shadow: 0 0 16px 0 #f50606ad;
+}
+.logo{
+	width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{
+
+}
+.logo a img{
+
+}
+nav{
+	width: 80%;
+    flex: 0 0 auto
+}
+nav ul{
+	justify-content: flex-end;
+}
+nav ul li{
+
+}
+nav ul li a{
+	text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 15px 18px;
+    display: block;
+    font-weight: 500;
+}
+nav ul li a:hover{
+	background: #f97b7bbf;
+    color: #fff;
+    border-radius: 10px;
+}
+/*Header section css end*/
+
+/*signup section css Start*/
+section{
+	padding: 75px 0px;
+}
+.signup-section{
+
+}
+.signup{
+	width: 39%;
+	flex: 0 0 auto;
+	padding: 50px;
+	color: #fff;
+	background: #e6869e;
+	box-shadow:  23px 23px 46px #c45d77, -23px -23px 46px #e26b89;
+	border-radius: 10px;
+	transition-duration: 0.3s;
+}
+.signup:hover{
+		box-shadow:  23px 23px 46px #e26b89, -23px -23px 46px #c45d77;
+}
+
+form{}
+form input, form textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    background: #f0f8ff00;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+form strong{
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 20px 0 5px;
+}
+form label{
+    font-size: 18px;
+    margin-right: 15px;
+    margin-bottom:10px;
+    display: inline-block; 
+}
+form textarea{}
+form input[type="radio"],
+form input[type="checkbox"]{
+	width: auto;
+}
+form input[type="submit"]{
+	width: auto;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+form p{
+	letter-spacing: 1px;
+}
+form p a{
+	color: #151414;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+form p a:hover{	
+}
+input:focus, textarea:focus{
+	outline: none;
+}
+/*signup section css End*/
+
+
+/*Banner section css Start*/
+.banner-section{
+	background-image: url(../images/banner.jpg);
+	margin-top: 11px;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	object-position: center;
+	height: 350px;
+}
+.banner-contend{
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	padding-top: 56px;
+	color: #fff;
+}
+.banner-contend h2{
+    font-size: 36px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+.banner-contend p{
+    font-size: 15px;
+    font-weight: 300;
+}
+/*Banner section css End*/
+
+
+/* Portfolio-section css Start*/
+.portfolio-section{
+
+}
+.project{
+	display: block;
+	background: #e6869e;
+	box-shadow:  23px 23px 46px #c45d77, -23px -23px 46px #e26b89;
+}
+.project img{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+.project h2{
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+	padding: 0 20px 5px;
+}
+.project:hover{
+	opacity: 0.6;
+}
+/* Portfolio-section css End*/
